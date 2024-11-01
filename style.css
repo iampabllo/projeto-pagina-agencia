@@ -1,0 +1,26 @@
+root {
+  --main-bg-color: #f0f0f0;
+  --main-bg-color-light: #fff;
+  --main-text-color: #333;
+  --main-text-color-light: #ccc;
+  --primary-color: #007bff;
+  --secundary-color: #003670;
+  --bg-light-color: #fff;
+  --font-family: Arial, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  background-color: var(--main-bg-color);
+  color: var(--main-bg-color);
+}
